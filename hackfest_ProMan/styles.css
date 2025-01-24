@@ -1,0 +1,103 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b30000;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+header .logo img {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+bottom:5px;  
+}
+
+header h1 {
+  text-align: center;
+  flex-grow: 1;
+ 
+}
+section h2 {
+  color: #b30000; /* Set the color to #b30000 */
+  font-weight: bold; /* Optional: Make it bold for emphasis */
+}
+/* Styling for Panel Headings */
+/* Styling for Panel Headings */
+.panel h3 {
+  color: black; /* Set the color to black */
+  font-weight: bold; /* Optional: Make it bold for emphasis */
+}
+
+
+/* Main Section Styling */
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 45%;
+}
+
+/* Faculty List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #b30000; /* Border updated to #b30000 */
+  cursor: grab;
+  color: black; /* Text color for faculty names */
+  font-weight: bold;
+}
+
+/* Panel Styling */
+.panel {
+  width: 45%;
+  min-height: 150px;
+  border: 2px dashed #b30000; /* Border updated to #b30000 */
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.panel h3 {
+  margin: 0 0 10px;
+  color: #b30000; /* Heading text updated to #b30000 */
+  font-weight: bold;
+}
+
+/* Button Styling */
+button {
+  background-color: #FF4D4D;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #D43B3B;
+}
